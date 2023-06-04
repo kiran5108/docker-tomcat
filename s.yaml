@@ -10,4 +10,4 @@ spec:
       targetPort: 8080  # Port your application is listening on inside the container
       nodePort: 9090 # Port to access the service externally on each node
   selector:
-    app: your-app-label   # Label selector to match your application deployment
+    app: tomcat-app   # Label selector to match your application deployment
