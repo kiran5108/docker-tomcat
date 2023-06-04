@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: tomcat-app
-        image: nanajanashia/argocd-app:1.2
+        image: kiran5108/myrepo:latest
         ports:
         - containerPort: 8080
